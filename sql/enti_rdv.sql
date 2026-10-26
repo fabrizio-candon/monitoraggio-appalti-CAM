@@ -41,7 +41,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: enti_rdv; Type: TABLE; Schema: public; Owner: fabrizio-candon
+-- Name: enti_rdv; Type: TABLE; Schema: public; Owner: anac
 --
 
 CREATE TABLE public.enti_rdv (
@@ -50,10 +50,10 @@ CREATE TABLE public.enti_rdv (
 );
 
 
-ALTER TABLE public.enti_rdv OWNER TO "fabrizio-candon";
+ALTER TABLE public.enti_rdv OWNER TO "anac";
 
 --
--- Data for Name: enti_rdv; Type: TABLE DATA; Schema: public; Owner: fabrizio-candon
+-- Data for Name: enti_rdv; Type: TABLE DATA; Schema: public; Owner: anac
 --
 
 COPY public.enti_rdv (cf, rag_soc) FROM stdin;
@@ -96,7 +96,7 @@ COPY public.enti_rdv (cf, rag_soc) FROM stdin;
 
 
 --
--- Name: enti_rdv enti_rdv_pkey; Type: CONSTRAINT; Schema: public; Owner: fabrizio-candon
+-- Name: enti_rdv enti_rdv_pkey; Type: CONSTRAINT; Schema: public; Owner: anac
 --
 
 ALTER TABLE ONLY public.enti_rdv

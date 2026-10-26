@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Copyright (C) 2024-2026 Fabrizio Candon
 
@@ -23,6 +23,14 @@ export PGCLIENTENCODING=LATIN1
 export PGOPTIONS='--client-min-messages=warning'
 export N_PROC=0
 
-OS_DIR='d:\Documents and Settings\fabrizio-candon\e-procurement\report\git\monitoraggio_gare_verdi\estrazioni\'
+OS=`uname -o`
+if [[ "$OS" =~ "Cygwin" ]]; then
+        OS_DIR=$(cygpath -w "$PWD")'\estrazioni\'
+  else
+        OS_DIR="$PWD"/estrazioni/
+fi
+echo OS_DIR "$OS_DIR"
+
+#OS_DIR='d:\Documents and Settings\fabrizio-candon\e-procurement\report\git\monitoraggio_gare_verdi\estrazioni\'
 psql -U anac -d anac -a --variable=anno_riferimento=$1 --variable=output_dir="$OS_DIR" -f ./sql/estraidaenti.sql
 
