@@ -121,7 +121,7 @@ function initCpv() {
 function initAnni() {
 #  anni["23"]="";
 #  anni["24"]="";
-  anni["25"]="";
+  anni["26"]="";
 }
 
 function ordina_cpv(i1, v1, i2, v2) {

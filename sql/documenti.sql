@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: documenti; Type: TABLE; Schema: public; Owner: fabrizio-candon
+-- Name: documenti; Type: TABLE; Schema: public; Owner: anac
 --
 
 CREATE TABLE public.documenti (
@@ -30,10 +30,10 @@ CREATE TABLE public.documenti (
 );
 
 
-ALTER TABLE public.documenti OWNER TO "fabrizio-candon";
+ALTER TABLE public.documenti OWNER TO "anac";
 
 --
--- Name: documenti documenti_pkey; Type: CONSTRAINT; Schema: public; Owner: fabrizio-candon
+-- Name: documenti documenti_pkey; Type: CONSTRAINT; Schema: public; Owner: anac
 --
 
 ALTER TABLE ONLY public.documenti

@@ -21,8 +21,8 @@
 set parametri.anno_riferimento = :'anno_riferimento';
 set parametri.output_dir = :'output_dir';
 do $$
-declare 
- 
+declare
+
   ente record;
   select_enti text;
   anno_riferimento varchar;
@@ -33,7 +33,7 @@ begin
   anno_riferimento = current_setting('parametri.anno_riferimento');
   output_dir = current_setting('parametri.output_dir');
   select_enti := 'select cf, rag_soc from enti_rdv';
-  anno='25';
+  anno='26';
 --substring(anno_riferimento,3,4);
 
   for ente in execute select_enti

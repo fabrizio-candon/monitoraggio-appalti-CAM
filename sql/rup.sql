@@ -21,7 +21,7 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: rup; Type: TABLE; Schema: public; Owner: fabrizio-candon
+-- Name: rup; Type: TABLE; Schema: public; Owner: anac
 --
 
 CREATE TABLE public.rup (
@@ -31,10 +31,10 @@ CREATE TABLE public.rup (
 );
 
 
-ALTER TABLE public.rup OWNER TO "fabrizio-candon";
+ALTER TABLE public.rup OWNER TO "anac";
 
 --
--- Name: rup_id_seq; Type: SEQUENCE; Schema: public; Owner: fabrizio-candon
+-- Name: rup_id_seq; Type: SEQUENCE; Schema: public; Owner: anac
 --
 
 ALTER TABLE public.rup ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY (
@@ -48,7 +48,7 @@ ALTER TABLE public.rup ALTER COLUMN id ADD GENERATED ALWAYS AS IDENTITY (
 
 
 --
--- Name: rup rup_pkey; Type: CONSTRAINT; Schema: public; Owner: fabrizio-candon
+-- Name: rup rup_pkey; Type: CONSTRAINT; Schema: public; Owner: anac
 --
 
 ALTER TABLE ONLY public.rup

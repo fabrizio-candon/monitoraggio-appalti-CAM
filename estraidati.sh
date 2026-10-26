@@ -31,6 +31,6 @@ if [[ "$OS" =~ "Cygwin" ]]; then
 fi
 echo OS_DIR "$OS_DIR"
 
-#OS_DIR='d:\Documents and Settings\fabrizio-candon\e-procurement\report\git\monitoraggio_gare_verdi\estrazioni\'
-psql -U anac -d anac -a --variable=anno_riferimento=$1 --variable=output_dir="$OS_DIR" -f ./sql/estraidaenti.sql
+OS_DIR='d:\Documents and Settings\fabrizio-candon\git\monitoraggio-appalti-CAM\estrazioni\'
+psql -U anac -d anac -a --variable=anno_riferimento="$1" --variable=output_dir="$OS_DIR" -f ./sql/estraidaenti.sql -L ./sql/sqllog
 
