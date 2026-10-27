@@ -102,18 +102,8 @@
   <Cell><Data ss:Type="String">CARTUCCE [3012-302373-301921-301923-3021]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB610EFA49</Data></Cell>
-  <Cell><Data ss:Type="Number">41279.50</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_ORDINE_8983674</Data></Cell>
-  <Cell><Data ss:Type="String">ACQUISTO POSTAZIONI UTENTE MOBILI PER AGENZIA</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">30213100-6</Data></Cell>
-  <Cell><Data ss:Type="String">
-COMPUTER PORTATILI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">STAMPANTI [302320-302321]</Data></Cell>
@@ -182,32 +172,8 @@ COMPUTER PORTATILI
   <Cell><Data ss:Type="String">LAVANOLO [9831]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BA7085D978</Data></Cell>
-  <Cell><Data ss:Type="Number">300000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_GARE_5988188</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO TRIENNALE DI LAVANOLO DI INDUMENTI E BIANCHERIA PIANA DA LABORATORIO A RIDOTTO IMPATTO AMBIENTALE</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA APERTA</Data></Cell>
-  <Cell><Data ss:Type="String">98310000-9</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI LAVANDERIA E DI LAVAGGIO A SECCO
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BA7AEB2C6B</Data></Cell>
-  <Cell><Data ss:Type="Number">300000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_GARE_6075500</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA APERTA PER L'AFFIDAMENTO DEL SERVIZIO TRIENNALE DI LAVANOLO DI INDUMENTI E BIANCHERIA PIANA DA LABORATORIO A RIDOTTO IMPATTO AMBIENTALE</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA APERTA</Data></Cell>
-  <Cell><Data ss:Type="String">98310000-9</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI LAVANDERIA E DI LAVAGGIO A SECCO
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">EVENTI [7995]</Data></Cell>
@@ -848,18 +814,8 @@ SERVIZI DI LAVANDERIA E DI LAVAGGIO A SECCO
   <Cell><Data ss:Type="String">EDILIZIA [4521-4523-4524]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BA263E259B</Data></Cell>
-  <Cell><Data ss:Type="Number">95000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_5963195</Data></Cell>
-  <Cell><Data ss:Type="String">LAVORI DI ADEGUAMENTO E MANUTENZIONE STRAORDINARIA DELLA STRADA FORESTA TREVISO - OSTIGLIA</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">45233141-9</Data></Cell>
-  <Cell><Data ss:Type="String">
-LAVORI DI MANUTENZIONE STRADALE
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">PULIZIA PER EDIFICI [90911]</Data></Cell>
@@ -1050,18 +1006,8 @@ LAVORI DI MANUTENZIONE STRADALE
   <Cell><Data ss:Type="String">RISTORAZIONE COLLETTIVA [55]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB6C61FF91</Data></Cell>
-  <Cell><Data ss:Type="Number">64000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6239071</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA NEGOZIATA PER L'AFFIDAMENTO SERVIZI DI ALLOGGIO PER I PARTECIPANTI E I VOLONTARI NELL'AMBITO DEL PROGETTO 3RD MAB YOUTH FORUM 2026 17/23 MAGGIO.</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">55110000-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI SISTEMAZIONE ALBERGHIERA
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">TESSILI [395-19]</Data></Cell>
@@ -1332,32 +1278,8 @@ SERVIZI DI SISTEMAZIONE ALBERGHIERA
   <Cell><Data ss:Type="String">ARREDO PER INTERNI [390-391-392-393-397]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">B9E0EEE285</Data></Cell>
-  <Cell><Data ss:Type="Number">129800.00</Data></Cell>
-  <Cell><Data ss:Type="String">G24270-9b4ee171-58f5-48e8-8940-15cc2a30bda1</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI STAMPA, PRODUZIONE, INSTALLAZIONE E DISALLESTIMENTO DI BANDIERE, STENDARDI, BANNER E STRISCIONI PER LA VESTIZIONE OLIMPICA DI CORTINA D'AMPEZZO</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39294100-0</Data></Cell>
-  <Cell><Data ss:Type="String">
-PRODOTTI PER INFORMAZIONE E PROMOZIONE
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BA107B638E</Data></Cell>
-  <Cell><Data ss:Type="Number">107358.00</Data></Cell>
-  <Cell><Data ss:Type="String">G25239-0fc29d20-ac1a-4b0a-ae96-6566fb74ab82</Data></Cell>
-  <Cell><Data ss:Type="String">FORNITURA ALLESTIMENTO BAR PALAGHIACCIO</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39150000-8</Data></Cell>
-  <Cell><Data ss:Type="String">
-ARREDI ED ATTREZZATURE VARIE
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CALZATURE DA LAVORO [18]</Data></Cell>
@@ -1527,74 +1449,8 @@ ARREDI ED ATTREZZATURE VARIE
   <Cell><Data ss:Type="String">ARREDO PER INTERNI [390-391-392-393-397]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BAB45324CB</Data></Cell>
-  <Cell><Data ss:Type="Number">211785.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6121172</Data></Cell>
-  <Cell><Data ss:Type="String">6121172 - LOTTO 1</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</Data></Cell>
-  <Cell><Data ss:Type="String">39100000-3</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BAC0C8F9DA</Data></Cell>
-  <Cell><Data ss:Type="Number">211785.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6132843</Data></Cell>
-  <Cell><Data ss:Type="String">6132843 - LOTTO 1</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</Data></Cell>
-  <Cell><Data ss:Type="String">39100000-3</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB9059B730</Data></Cell>
-  <Cell><Data ss:Type="Number">191000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_ADI_6304443</Data></Cell>
-  <Cell><Data ss:Type="String">LOTTO 1</Data></Cell>
-  <Cell><Data ss:Type="String">ALTRA PROCEDURA A PIU' FASI</Data></Cell>
-  <Cell><Data ss:Type="String">39143112-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-MATERASSI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BC2EE6C9A6</Data></Cell>
-  <Cell><Data ss:Type="Number">191000.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6425476</Data></Cell>
-  <Cell><Data ss:Type="String">FORNITURA DI MATERASSI E COPRIMATERASSI IGNIFUGHI</Data></Cell>
-  <Cell><Data ss:Type="String">PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</Data></Cell>
-  <Cell><Data ss:Type="String">39143112-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-MATERASSI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB1D2DEA32</Data></Cell>
-  <Cell><Data ss:Type="Number">115077.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6206545</Data></Cell>
-  <Cell><Data ss:Type="String">FORNITURA CUCINE RESIDENZA GALILEO GALILEI</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39141000-2</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI DA CUCINA
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CALZATURE DA LAVORO [18]</Data></Cell>
@@ -1649,18 +1505,8 @@ MOBILI DA CUCINA
   <Cell><Data ss:Type="String">PULIZIA PER EDIFICI [90911]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BBC1D9025C</Data></Cell>
-  <Cell><Data ss:Type="Number">55463.74</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6336812</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI PULIZIA DLL'IMMOBILE RESIDENZA FUSINATO</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">90911200-8</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI PULIZIA DI EDIFICI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">RISCALDAMENTO/AFFRESCAMENTO PER EDIFICI [4533]</Data></Cell>
@@ -1681,48 +1527,6 @@ SERVIZI DI PULIZIA DI EDIFICI
   <Cell><Data ss:Type="String">2026 ESU RIST</Data></Cell>
   <Cell><Data ss:Type="String">LOTTO 1 SERVIZIO DI RISTORAZIONE</Data></Cell>
   <Cell><Data ss:Type="String">PROCEDURA NEGOZIATA SENZA PREVIA PUBBLICAZIONE</Data></Cell>
-  <Cell><Data ss:Type="String">55511000-5</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI MENSA ED ALTRI SERVIZI DI CAFFETTERIA PER CLIENTELA RISTRETTA
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BD06CDB9FA</Data></Cell>
-  <Cell><Data ss:Type="Number">127500.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6570816</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI RISTORAZIONE IN CONVENZIONE PER GLI STUDENTI ISCRITTI CIELS</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">55511000-5</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI MENSA ED ALTRI SERVIZI DI CAFFETTERIA PER CLIENTELA RISTRETTA
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BBA6F76403</Data></Cell>
-  <Cell><Data ss:Type="Number">42500.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6298338</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI RISTORAZIONE PRESSO PRESIDI OSPEDALIERI ANNO 2026 2027 ALLA DITTA SERENISSIMA RISTORAZIONE SPA</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">55511000-5</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI MENSA ED ALTRI SERVIZI DI CAFFETTERIA PER CLIENTELA RISTRETTA
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BC3CECC2A5</Data></Cell>
-  <Cell><Data ss:Type="Number">40196.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6423674</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI RISTORAZIONE CONVENZIONATO PER GLI STUDENTI ISCRITTI AL ALL'UNIVERSITA' DI PADOVA FREQUENTANTI I CORSI ESTIVI PRESSO LA RISTORAZIONE DI BRESSANONE</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
   <Cell><Data ss:Type="String">55511000-5</Data></Cell>
   <Cell><Data ss:Type="String">
 SERVIZI DI MENSA ED ALTRI SERVIZI DI CAFFETTERIA PER CLIENTELA RISTRETTA
@@ -1826,32 +1630,8 @@ SERVIZI DI MENSA ED ALTRI SERVIZI DI CAFFETTERIA PER CLIENTELA RISTRETTA
   <Cell><Data ss:Type="String">ARREDO PER INTERNI [390-391-392-393-397]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BC3152F65F</Data></Cell>
-  <Cell><Data ss:Type="Number">138900.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6410289</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI SGOMBERO, TRASFERIMENTO, MANUTENZIONE, RIPRISTINO E NUOVA FORNITURA ARREDI, SERRAMENTI ED ELETTRODOMESTICI.</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39111100-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-SEDILI GIREVOLI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BCDAAC07A2</Data></Cell>
-  <Cell><Data ss:Type="Number">83577.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6500120</Data></Cell>
-  <Cell><Data ss:Type="String">ACQUISTO ATTREZZATURA PROFESSIONALE DI CUCINA - RISTORANTE UNIVERSITARIO RIO NOVO</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39711360-0</Data></Cell>
-  <Cell><Data ss:Type="String">
-FORNI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CALZATURE DA LAVORO [18]</Data></Cell>
@@ -2105,18 +1885,8 @@ FORNI
   <Cell><Data ss:Type="String">VERDE PuBBLICO [773]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BBD7122B41</Data></Cell>
-  <Cell><Data ss:Type="Number">50200.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6322146</Data></Cell>
-  <Cell><Data ss:Type="String">MANUTENZIONE VERDE ESU</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">77340000-5</Data></Cell>
-  <Cell><Data ss:Type="String">
-POTATURA DI ALBERI E SIEPI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">LAVANOLO [9831]</Data></Cell>
@@ -2464,18 +2234,8 @@ POTATURA DI ALBERI E SIEPI
   <Cell><Data ss:Type="String">LAVANOLO [9831]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB89C3C2B8</Data></Cell>
-  <Cell><Data ss:Type="Number">54786.50</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6254803</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO DI LAVANOLO, DI DURATA BIENNALE, PER LE SEZIONI SITUATE NELLE PROVINCIE DI UDINE, PORDENONE, TRENTO E BOLZANO DELL'IZSVE</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">98311200-8</Data></Cell>
-  <Cell><Data ss:Type="String">
-SERVIZI DI ESERCIZIO DI LAVANDERIE
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">EVENTI [7995]</Data></Cell>
@@ -2554,32 +2314,8 @@ SERVIZI DI ESERCIZIO DI LAVANDERIE
   <Cell><Data ss:Type="String">ARREDO PER INTERNI [390-391-392-393-397]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB9F36D89A</Data></Cell>
-  <Cell><Data ss:Type="Number">57980.84</Data></Cell>
-  <Cell><Data ss:Type="String">G00648-ef3f385e-892b-494e-8f30-46d57c5d39d7</Data></Cell>
-  <Cell><Data ss:Type="String">APPALTO SPECIFICO N. 3 PARETI - FORNITURA, CONSEGNA E POSA IN OPERA DI ARREDI SPECIALI ED ALTRI ELEMENTI D`ARREDO PER UFFICIO DI DIVERSA TIPOLOGIA, DA FINANZIARE ALL`INTERNO DEL PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) CON RISORSE NATIVE, DALL`UNIONE EUROPEA - NEXT GENERATION EU - M5C1 I.1.1. (MISSIONE 5 COMPONENTE 1, OVVERO M5C1, INVESTIMENTO I.1.1). CUP F19I24001160006.</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39130000-2</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI PER UFFICI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BB7C6B2AE6</Data></Cell>
-  <Cell><Data ss:Type="Number">41816.91</Data></Cell>
-  <Cell><Data ss:Type="String">G00647-5f9d78d0-8455-4c4e-8651-6e023ee77109</Data></Cell>
-  <Cell><Data ss:Type="String">APPALTO SPECIFICO N. 2 - FORNITURA, CONSEGNA E POSA IN OPERA DI ARREDI SPECIALI ED ALTRI ELEMENTI D`ARREDO PER UFFICIO DI DIVERSA TIPOLOGIA, DA FINANZIARE ALL`INTERNO DEL PIANO NAZIONALE DI RIPRESA E RESILIENZA (PNRR) CON RISORSE NATIVE, DALL`UNIONE EUROPEA - NEXT GENERATION EU - M5C1 I.1.1. (MISSIONE 5 COMPONENTE 1, OVVERO M5C1, INVESTIMENTO I.1.1). CUP F19I24001160006.</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39130000-2</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI PER UFFICI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CALZATURE DA LAVORO [18]</Data></Cell>
@@ -4933,18 +4669,8 @@ SERVIZI DI PIANTAGIONE E MANUTENZIONE DI ZONE VERDI
   <Cell><Data ss:Type="String">ARREDO PER INTERNI [390-391-392-393-397]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BC3115E022</Data></Cell>
-  <Cell><Data ss:Type="Number">139000.00</Data></Cell>
-  <Cell><Data ss:Type="String">820296_tender_8754</Data></Cell>
-  <Cell><Data ss:Type="String">AMM - FORNITURA DI ARREDI, PARETI E RELATIVE INSTALLAZIONI</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">39130000-2</Data></Cell>
-  <Cell><Data ss:Type="String">
-MOBILI PER UFFICI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CALZATURE DA LAVORO [18]</Data></Cell>
@@ -9082,46 +8808,8 @@ INDUMENTI PROFESSIONALI
   <Cell><Data ss:Type="String">CARTUCCE [3012-302373-301921-301923-3021]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BAA623EB26</Data></Cell>
-  <Cell><Data ss:Type="Number">105853.20</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_ORDINE_8982677</Data></Cell>
-  <Cell><Data ss:Type="String">APPARECCHI MULTIFUNZIONE A NOLEGGIO 3</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">30121100-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-FOTOCOPIATRICI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BAAAECB71C</Data></Cell>
-  <Cell><Data ss:Type="Number">105733.20</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_ORDINE_8986904</Data></Cell>
-  <Cell><Data ss:Type="String">APPARECCHI MULTIFUNZIONE A NOLEGGIO 3</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">30121100-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-FOTOCOPIATRICI
-        </Data></Cell>
-</Row>
-<Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BAB36CF57C</Data></Cell>
-  <Cell><Data ss:Type="Number">42368.00</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_ORDINE_8989031</Data></Cell>
-  <Cell><Data ss:Type="String">APPARECCHI MULTIFUNZIONE A NOLEGGIO 3</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">30121100-4</Data></Cell>
-  <Cell><Data ss:Type="String">
-FOTOCOPIATRICI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">STAMPANTI [302320-302321]</Data></Cell>
@@ -9422,18 +9110,8 @@ SERVIZI DI ORGANIZZAZIONE DI EVENTI
   <Cell><Data ss:Type="String">RISTORO E DISTRIBUZIONE DI ACQUA DI RETE A FINI POTABILI [651]</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
-  <Cell ss:Index="2" ss:StyleID="s64" ss:HRef=""><Data ss:Type="String"></Data></Cell>
-  <Cell ss:Index="3"><Data ss:Type="String"></Data></Cell>
   <Cell ss:Index="4"><Data ss:Type="Number">2026</Data></Cell>
-  <Cell ss:Index="5"><Data ss:Type="String">BC47BF68E9</Data></Cell>
-  <Cell><Data ss:Type="Number">98711.96</Data></Cell>
-  <Cell><Data ss:Type="String">CONSIP_RDO_6430201</Data></Cell>
-  <Cell><Data ss:Type="String">SERVIZIO LOCALIZZAZIONE FLOTTE AZIENDALI</Data></Cell>
-  <Cell><Data ss:Type="String">AFFIDAMENTO DIRETTO</Data></Cell>
-  <Cell><Data ss:Type="String">42961300-3</Data></Cell>
-  <Cell><Data ss:Type="String">
-SISTEMI DI LOCALIZZAZIONE VEICOLI
-        </Data></Cell>
+  <Cell ss:Index="5"><Data ss:Type="String">-</Data></Cell>
 </Row>
 <Row ss:AutoFitHeight="0">
   <Cell><Data ss:Type="String">CPV PREVALENTE NON DISPONIBILE [999999]</Data></Cell>

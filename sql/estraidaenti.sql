@@ -45,19 +45,23 @@ begin
 	copy (select a.cig, a.importo_lotto, a.numero_gara, a.oggetto_lotto, a.tipo_scelta_contraente, a.cod_cpv, a.desc_cpv, a.verde, r.nome || '' '' || r.cognome, d.link  
 	  from appalti a join enti_rdv b on a.cf_amm_appaltante=b.cf
           left join documenti d on a.cig=d.cig
-          left join rup r on a.rup=r.id
+          left join rup r on a.rup=r.id,
+	  cpv_dmcam cam
 	  where
 	  data_pubblicazione >= '''|| anno_riferimento || '''  
 	  and a.importo_lotto>40000 
 	  and b.cf!=''80007580279'' 
 	  and a.cf_amm_appaltante=''' || ente.cf || ''' 
-	  and ( a.cod_cpv like ''390%'' 
-		or a.cod_cpv like ''391%'' 
-		or a.cod_cpv like ''392%'' 
-		or a.cod_cpv like ''393%'' 
-		or a.cod_cpv like ''397%'' 
-	      )
-	  and (a.verde=true or a.verde is null)
+--	  and ( a.cod_cpv like ''390%'' 
+--		or a.cod_cpv like ''391%'' 
+--		or a.cod_cpv like ''392%'' 
+--		or a.cod_cpv like ''393%'' 
+--		or a.cod_cpv like ''397%'' 
+--	      )
+          and a.cod_cpv=cam.cod_cpv
+	  and not a.numero_gara like ''CONSIP%''
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-390-391-392-393-397.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -74,7 +78,8 @@ begin
 	  and b.cf!=''80007580279'' 
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''18%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-18.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -91,7 +96,8 @@ begin
 	  and b.cf!=''80007580279'' 
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''301976%'' 
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-301976.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -113,7 +119,8 @@ begin
 		or a.cod_cpv like ''301923%'' 
 		or a.cod_cpv like ''3021%''
              )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-3012-302373-301921-301923-3021.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -132,7 +139,8 @@ begin
 	  and ( a.cod_cpv like ''302320%'' 
 		or a.cod_cpv like ''302321%'' 
               )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-302320-302321.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -151,7 +159,8 @@ begin
 	  and ( a.cod_cpv like ''34922%'' 
 		or a.cod_cpv like ''45316%'' 
               )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-34922-45316.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -171,7 +180,8 @@ begin
 		or a.cod_cpv like ''453116%''
 		or a.cod_cpv like ''3499%''
              )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-5023-453116-3499.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -191,7 +201,8 @@ begin
 		or a.cod_cpv like ''4523%'' 
 		or a.cod_cpv like ''4524%''
               )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-4521-4523-4524.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -208,7 +219,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''90911%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-90911.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -225,7 +237,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''4533%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-4533.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -242,7 +255,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''55%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-55.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -261,7 +275,8 @@ begin
 	  and ( a.cod_cpv like ''395%''
 		or a.cod_cpv like ''19%'' 
 	      )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-395-19.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -278,7 +293,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''773%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-773.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -295,7 +311,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''9831%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-9831.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -312,7 +329,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''7995%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-7995.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -331,7 +349,8 @@ begin
 	  and ( a.cod_cpv like ''651%''
 	        or a.cod_cpv like ''4296%''
 	      )
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-651.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
@@ -348,7 +367,8 @@ begin
 	  and b.cf!=''80007580279''
 	  and a.cf_amm_appaltante=''' || ente.cf || '''
 	  and a.cod_cpv like ''999999%''
-	  and (a.verde=true or a.verde is null)
+	  and not a.numero_gara like ''CONSIP%''
+and (a.verde=true or a.verde is null)
 	  order by a.importo_lotto desc) 
 	to ''' || output_dir || ente.cf || '-' || anno || '-999999.csv''
 	with csv delimiter '';'' encoding ''LATIN1'' force quote *;
